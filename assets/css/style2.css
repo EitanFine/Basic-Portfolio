@@ -1,0 +1,33 @@
+
+ 
+ 
+ img {padding: 20px;} 
+ 
+ div.wrapper{
+      float:left; /* important */
+      position:relative; /* important(so we can absolutely position the description div */
+      
+    }
+  div.description{
+      position:absolute; /* absolute position (so we can position it where we want)*/
+      bottom:0px; /* position will be on bottom */
+      
+     width:200px;
+    
+     margin-bottom: 40px;
+      margin-left: 30px;
+      /* styling bellow */
+      background-color:#4aaaa5;
+      color:white;
+      opacity:0.6; /* transparency */
+      filter:alpha(opacity=60); /* IE transparency */
+      text-align: center;
+   }
+  p.description_content{
+    
+     
+      font-size: 15px;
+      margin-top: 20px;
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;`
+      
+  }
